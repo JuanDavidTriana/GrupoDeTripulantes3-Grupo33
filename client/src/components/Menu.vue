@@ -23,14 +23,14 @@
         <template v-if="token">
              <div class="ui link list">
             <a class="item"
-              ><router-link to="/abount">Conocenos</router-link></a
+              ><router-link to="/abount" class="ite">Conocenos</router-link></a
             >
             <a class="item"
-              ><router-link to="/abount">Historias</router-link></a
+              ><router-link to="/abount" class="ite">Historias</router-link></a
             >
-            <a class="item"><router-link to="/abount">Procesos</router-link></a>
+            <a class="item"><router-link to="/abount" class="ite">Procesos</router-link></a>
             <a class="item"
-              ><router-link to="/abount">Otros productos</router-link></a
+              ><router-link to="/abount" class="ite">Otros productos</router-link></a
             >
           </div>
           <span class="ui item cart">
@@ -85,7 +85,8 @@ export default {
 
 <style lang="scss" scoped>
 .ui.menu.secondary {
-  background-image: url('../assets/header2-vt.png');
+  // background-image: url('../assets/header2-vt.png');
+  background-color: #043f1d;
   .item {
     color: #ffffff;
     font-size: 14px;
@@ -108,6 +109,14 @@ export default {
       &:hover {
         cursor: pointer;
       }
+    }
+  }
+  .ui.link.list{
+    .ite{
+      color: #ffffff;
+      &:hover {
+      color: #1fa1f1;
+    }
     }
   }
 }

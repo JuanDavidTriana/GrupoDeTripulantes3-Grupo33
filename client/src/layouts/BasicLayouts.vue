@@ -7,7 +7,10 @@
   </div>
 
   <Cart />
-  <p>Este es el footer</p>
+  
+  <div class="footer">
+      © 2021 Copyright : Panela a un Clic
+    </div>
 </template>
 
 <script>
@@ -23,4 +26,13 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.footer{
+  background-color: #043f1d;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+</style>
