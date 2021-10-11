@@ -21,16 +21,20 @@
         </router-link>
 
         <template v-if="token">
-             <div class="ui link list">
+          <div class="ui link list">
             <a class="item"
               ><router-link to="/About" class="ite">Conocenos</router-link></a
             >
             <a class="item"
-              ><router-link to="/abount" class="ite">Historias</router-link></a
+              ><router-link to="/Story" class="ite">Historias</router-link></a
             >
-            <a class="item"><router-link to="/abount" class="ite">Procesos</router-link></a>
             <a class="item"
-              ><router-link to="/abount" class="ite">Otros productos</router-link></a
+              ><router-link to="/abount" class="ite">Procesos</router-link></a
+            >
+            <a class="item"
+              ><router-link to="/abount" class="ite"
+                >Otros productos</router-link
+              ></a
             >
           </div>
           <span class="ui item cart">
@@ -46,13 +50,13 @@
 </template>
 
 <script>
-import { ref, onMounted } from 'vue';
-import { useStore } from 'vuex';
-import { getTokenApi, deleteTokenApi } from '../api/token';
-import { getCategoriesApi } from '../api/category';
+import { ref, onMounted } from "vue";
+import { useStore } from "vuex";
+import { getTokenApi, deleteTokenApi } from "../api/token";
+import { getCategoriesApi } from "../api/category";
 
 export default {
-  name: 'menu',
+  name: "menu",
 
   setup() {
     let categories = ref(null);
@@ -66,11 +70,11 @@ export default {
 
     const logout = () => {
       deleteTokenApi();
-      location.replace('/');
+      location.replace("/");
     };
 
     const openCart = () => {
-      store.commit('setShowCart', true);
+      store.commit("setShowCart", true);
     };
 
     return {
@@ -111,12 +115,12 @@ export default {
       }
     }
   }
-  .ui.link.list{
-    .ite{
+  .ui.link.list {
+    .ite {
       color: #ffffff;
       &:hover {
-      color: #1fa1f1;
-    }
+        color: #1fa1f1;
+      }
     }
   }
 }
