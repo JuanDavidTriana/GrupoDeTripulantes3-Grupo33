@@ -23,7 +23,7 @@
         <template v-if="token">
              <div class="ui link list">
             <a class="item"
-              ><router-link to="/abount" class="ite">Conocenos</router-link></a
+              ><router-link to="/About" class="ite">Conocenos</router-link></a
             >
             <a class="item"
               ><router-link to="/abount" class="ite">Historias</router-link></a
