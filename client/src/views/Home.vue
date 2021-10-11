@@ -2,6 +2,10 @@
   <BasicLayouts>
     
     <img src="../assets/panela2.jpg" class="img_principal">
+
+    
+
+
     <h1 class="titulo">NUESTROS PRODUCTOS</h1>
     <div class="ui grid">
       <div

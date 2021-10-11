@@ -8,6 +8,7 @@
 
   <Cart />
   
+  
   <div class="footer">
       © 2021 Copyright : Panela a un Clic
     </div>
