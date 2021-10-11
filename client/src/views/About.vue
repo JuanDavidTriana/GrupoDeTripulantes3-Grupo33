@@ -29,14 +29,14 @@
 
         <h2>Viviana Londoño</h2>
         <p>
-          Ingeniera de Alimentos
-          Tecnologa en analisis y desarrollo de sistemas de informacion
+          Ingeniera de Alimentos Tecnologa en analisis y desarrollo de sistemas
+          de informacion
         </p>
       </div>
       <!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img
-          src="img/IMG_20190813_165441.jpg"
+          src="../assets/Victor.jpg"
           class="bd-placeholder-img rounded-circle"
           width="140"
           height="140"
@@ -45,9 +45,7 @@
         <title>Placeholder</title>
 
         <h2>Victor Alfonso Martinez</h2>
-        <p>
-          Ingeniero de alimentos
-        </p>
+        <p>Ingeniero de alimentos</p>
       </div>
       <!-- /.col-lg-4 -->
       <div class="col-lg-4">
@@ -61,9 +59,7 @@
         <title>Placeholder</title>
 
         <h2>Angel David Reyes</h2>
-        <p>
-          Administrador de Empresas
-        </p>
+        <p>Administrador de Empresas</p>
       </div>
     </div>
   </BasicLayouts>
