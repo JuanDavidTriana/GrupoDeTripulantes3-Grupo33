@@ -59,7 +59,7 @@
           dio por muchos años, los avances tecnológicos y las nuevas
           herramientas permitieron que se reemplazara la fuerza humana y animal
           por motores y sistemas hidráulicos que hacían la tarea mucho más
-          fácil.
+          fácil..
         </p>
       </div>
       <div class="col-md-5 order-md-1">
